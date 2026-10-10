@@ -53,7 +53,7 @@ LOGGER_ID = int(getenv("LOGGER_ID", ""))
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "7048354045").split())
+    map(int, getenv("OWNER_ID", "7915543522").split())
 )  # Input type must be interger
 
 
@@ -74,7 +74,7 @@ EXTRA_PLUGINS = getenv(
 
 EXTRA_PLUGINS_REPO = getenv(
     "EXTRA_PLUGINS_REPO",
-    "https://github.com/venombolteop/Extra-plugins",
+    "https://github.com/fearless45op-prime/Extra-plugins",
 )
 # Fill here the external plugins repo where plugins that you want to load
 
@@ -101,7 +101,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", "")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/venombolteop/VenomMusic",
+    "https://github.com/fearless45op-prime/PrimeXBeats",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 
@@ -114,11 +114,11 @@ GIT_TOKEN = getenv(
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/TomatoFist"
+    "SUPPORT_CHANNEL", "https://t.me/SPARK_X_NETWORK_OP"
 )
 
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/Itz_venom_family"
+    "SUPPORT_GROUP", "https://t.me/SPARK_X_NETWORK"
 )  
 
 
