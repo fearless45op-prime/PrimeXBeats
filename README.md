@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=PrimeXBeats&color=0:39ff14,45:a855f7,100:22d3ee&height=230&section=header&text=FEARLESS%20%E2%9C%98%20MUSIC&fontSize=56&fontColor=ffffff&fontAlignY=34&desc=The%20Deadliest%20Telegram%20Music%20Bot&descAlignY=55&descSize=18&animation=twinkling" alt="PRIME X BEATS animated banner"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=VenomMusic&color=0:39ff14,45:a855f7,100:22d3ee&height=230&section=header&text=FEARLESS%20%E2%9C%98%20MUSIC&fontSize=56&fontColor=ffffff&fontAlignY=34&desc=The%20Deadliest%20Telegram%20Music%20Bot&descAlignY=55&descSize=18&animation=twinkling" alt="PRIME X BEATS animated banner"/>
 
 <img src="https://te.legra.ph/file/7d9c0fec898bbee09ba95.jpg" width="320" height="auto" alt="Fearless X Music">
 

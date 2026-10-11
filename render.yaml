@@ -1,6 +1,6 @@
 services:
-  - type: worker
-    name: venom-music-bot
+  - type: web
+    name: PrimeXBeats
     runtime: docker
     dockerfilePath: Dockerfile
     plan: free
