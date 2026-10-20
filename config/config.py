@@ -12,17 +12,17 @@ load_dotenv()
 
 # Get it from my.telegram.org
 
-API_ID = int(getenv("API_ID", ""))
+API_ID = int(getenv("API_ID", "35450953"))
 
-API_HASH = getenv("API_HASH", "")
+API_HASH = getenv("API_HASH", "763f72b8b828a1907a9291ef02a25dfb")
 
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "")
+BOT_TOKEN = getenv("BOT_TOKEN", "8030013116:AAE_RU3RQznhSBgH2-NrFQvyypCAN3OlGRs")
 
 
 # Database to save your chats and stats... 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://vasusoni4518_db_user:R9JkK4LG5oDjhmfB@cluster0.frhtfue.mongodb.net/?appName=Cluster0")
 
 
 CLEANMODE_DELETE_MINS = int(
@@ -38,7 +38,7 @@ DURATION_LIMIT_MIN = int(
 
 
 # Proxy URL for YouTube/yt-dlp requests (leave empty to disable)
-PROXY_URL = getenv("PROXY_URL", "")
+PROXY_URL = getenv("PROXY_URL", "http://purevpn0s13933117:&%Bl}H6HMXvJ@px152201.pointtoserver.com:10780")
 
 
 # Duration Limit for downloading Songs in MP3 or MP4 format from bot
@@ -48,7 +48,7 @@ SONG_DOWNLOAD_DURATION = int(
 
 
 # You'll need a Private Group ID for this.
-LOGGER_ID = int(getenv("LOGGER_ID", ""))
+LOGGER_ID = int(getenv("LOGGER_ID", "7915543522"))
 
 
 # Your User ID.
@@ -130,7 +130,7 @@ PRIVATE_BOT_MODE = getenv("PRIVATE_BOT_MODE", "False")
 # Instant Play / Streaming Mode (default OFF: download first for smooth playback)
 INSTANT_PLAY = getenv("INSTANT_PLAY", "True")
 # Media API used for instant (no-download) playback: serves a stable stream permalink
-VENOM_API_URL = getenv("VENOM_API_URL", "http://127.0.0.1:3200")
+VENOM_API_URL = getenv("VENOM_API_URL", "https://api.tomatofist.com/>")
 # Post time-synced lyrics in the voice chat, sent by the assistant account
 VC_LYRICS = getenv("VC_LYRICS", "True")
 # Inside a group voice chat the only surface a bot can write to is the call's
@@ -162,7 +162,7 @@ TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "5"))
 
 
 # Your Github Repo.. Will be shown on /start Command
-GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/venombolteop/VenomMusic")
+GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/fearless45op-prime/PrimeXBeats")
 
 
 # Spotify Client.. Get it from https://developer.spotify.com/dashboard
@@ -200,7 +200,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 #
 SET_CMDS = getenv("SET_CMDS", "True")
 
-raw_sessions = getenv("STRING_SESSIONS", "")
+raw_sessions = getenv("STRING_SESSIONS", "BQIc8EkAKuhBvNv1YqqOMcJP673pcLLjOcGbEsaxGZBXzSR6WjaxDd_uY6ENyUOO8-MFvIzl5HFgvrwOFyPEPVFd0MIef6B9qrErltUjh1TX9keJ85TOj5vBO7i2uGqgfeQskSCKYEJkH_BtDzfLnyeDz8kGrRiwmPflKaVk10zWFdz3Jya_4_33J9fF25FQ0DNkX52WUtu0yAbaI2rCt8OtJXpNAFm2aFuhBsO0QOD-_9cgxad1AY6tklv2FJL4dxJNqz-yvk_hCDkfxdxYIEf76cmq3ienRQRxJpgyIpkQmRz0SPh1ij9oD41XsusTZfG_t3wgN98G8oBcBaI3MdzdPF3JnAAAAAH9cc3dAA")
 
 # Split the sessions only if raw_sessions is not empty
 STRING_SESSIONS = list(map(str.strip, raw_sessions.split(","))) if raw_sessions else []
